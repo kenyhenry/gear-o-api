@@ -1,27 +1,26 @@
 {
   "name": "gear-o-api",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "gear-o api to interact with gear-o game (web, AI...)",
   "files": [
-    "build/**/*",
-    "src/**/*",
     "images/**/*",
     "font/**/*",
     "assets/**/*",
-    "./index.ts"
+    "./index.ts",
+    "./socket_manager.ts"
   ],
   "scripts": {
     "tsc": "tsc"
   },
-  "main": "./build/index.js",
+  "main": "index.js",
   "build": {
     "files": [
-      "node_modules/**/*",
-      "build/**/*",
       "package.json",
       "font",
       "images",
-      "assets"
+      "assets",
+      "./index.ts",
+      "./socket_manager.ts"
     ]
   },
   "devDependencies": {
@@ -44,7 +43,7 @@
     "walletconnect": "^1.7.8",
     "web3": "^1.8.1"
   },
-  "types": "./build/index.d.ts",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kenyhenry/gear-o-api.git"

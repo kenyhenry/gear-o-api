@@ -1,4 +1,4 @@
-import * as SocketManager from "./src/socket_manager.js"
+import * as SocketManager from "./socket_manager.js"
 import {Socket, io} from "socket.io-client"
 
 export class GearO {
