@@ -1,10 +1,13 @@
 {
   "name": "gear-o-api",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "gear-o api to interact with gear-o game (web, AI...)",
   "files": [
     "build/**/*",
-    "html/**/*"
+    "src/**/*",
+    "images/**/*",
+    "font/**/*",
+    "assets/**/*"
   ],
   "scripts": {
     "tsc": "tsc"

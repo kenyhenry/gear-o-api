@@ -1,7 +1,7 @@
-import * as SocketManager from "./socket_manager.js"
+import * as SocketManager from "./src/socket_manager.js"
 import {Socket, io} from "socket.io-client"
 
-class GearO {
+export class GearO {
   socket : Socket<SocketManager.ServerToClientEvents, SocketManager.ClientToServerEvents> = io("http://localhost:3000");
   game:string = "";
   id:string = "";
