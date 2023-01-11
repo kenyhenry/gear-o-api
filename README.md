@@ -12,3 +12,5 @@ electron app
 * v : fast shot (limited time)
 
 ## TODO
+- [ ] choose pure virtual method
+- [ ] make Gear-o main class extendable

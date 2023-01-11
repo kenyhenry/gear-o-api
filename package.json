@@ -1,17 +1,13 @@
 {
   "name": "gear-o-api",
   "version": "1.0.2",
-  "description": "gear-o battle game",
+  "description": "gear-o api to interact with gear-o game (web, AI...)",
   "files": [
     "build/**/*",
     "html/**/*"
   ],
   "scripts": {
-    "tsc": "tsc",
-    "start": "tsc && ./node_modules/.bin/electron ./build/index.js",
-    "build_macos": "tsc && ./node_modules/.bin/electron-builder",
-    "build_windows": "",
-    "build_linux": ""
+    "tsc": "tsc"
   },
   "main": "./build/index.js",
   "build": {
@@ -19,16 +15,10 @@
       "node_modules/**/*",
       "build/**/*",
       "package.json",
-      "html",
-      "css",
       "font",
       "images",
       "assets"
-    ],
-    "mac": {
-      "icon": "./images/gear-o-logo.png",
-      "category": "public.app-category.utilities"
-    }
+    ]
   },
   "devDependencies": {
     "@types/qrcode": "^1.5.0",
@@ -55,8 +45,8 @@
     "type": "git",
     "url": "git+https://github.com/kenyhenry/gear-o-cli.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "keny henry",
+  "license": "Elaborium",
   "bugs": {
     "url": "https://github.com/kenyhenry/gear-o-cli/issues"
   },
