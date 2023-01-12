@@ -8,6 +8,7 @@ export class GearO {
   version:string = "1.0.2"
 
   constructor(){
+    this.socket.connect();
     this.socket.on('gameId', (game:string, id:string) =>{this.onGameId(game, id)});
     this.socket.on('walletConnect', (uri:string) =>{this.onWalletConnect(uri)});
     this.socket.on('sendMap', (map:string) =>{this.onSendMap(map)});

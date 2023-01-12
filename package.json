@@ -1,6 +1,6 @@
 {
   "name": "gear-o-api",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "gear-o api to interact with gear-o game (web, AI...)",
   "files": [
     "images/**/*",
